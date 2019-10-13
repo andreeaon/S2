@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Data table design</title>
+<style>
+body {
+    background-color: rgb(241, 224, 241);
+}
+
+table {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 1200px;
+    border-radius: 4px;
+    border-collapse: collapse;
+    
+}
+
+.ttitle {
+    width: 1200px;
+    padding: 20px;
+    text-align: left;
+    background-color: rgb(136, 125, 125) ; 
+    
+}
+th, td {
+    text-align: left;
+    padding: 5px;
+   
+}
+td {
+    border-right: 1px solid gray;
+}
+tr td:last-child{
+    border-right: none;
+}
+.header {
+    background-color: rgb(216, 206, 206);
+}
+.blue {
+    background-color: turquoise;
+}
+.gri {
+    background-color:rgb(216, 206, 206) ;
+}
+.alb {
+    background-color: white;
+}
+.total {
+    background-color: rgb(136, 125, 125) ;
+    padding: 20px;
+    
+}
+
+
+</style>
+</head>
+
+<body>
+<table>
+
+    <tr class="tabletitle">
+        <th class="ttitle" colspan="8">
+            Product sales on my own checkout pages - This is the revenue generated through your own checkout pages
+        </th>
+    </tr>
+    <tr class="">
+        <th class="header">Product</th>
+        <th class="header">Gross Unit Sales</th>
+        <th class="header">Product Returns</th>
+        <th class="header">Net Unit Sales</th>
+        <th class="header">Revenue Net of Fees</th>
+        <th class="header">Cross sell Revenue</th>
+        <th class="header">Revenue</th>
+        <th class="header"></th>
+    </tr>
+    <tr>
+        <td class="blue">drtg</td>
+        <td class="blue">100</td>
+        <td class="blue">0</td>
+        <td class="blue">100</td>
+        <td class="blue">$91.82</td>
+        <td class="blue">$0.00</td>
+        <td class="blue">$91.70</td>
+        <td class="blue"><a href="www.website.com">More info</a></td>
+    </tr>
+    <tr>
+        <td class="alb">my soft</td>
+        <td class="alb">14</td>
+        <td class="alb">0</td>
+        <td class="alb">14</td>
+        <td class="alb">$20.77</td>
+        <td class="alb">$3.36</td>
+        <td class="alb">$24.01</td>
+        <td class="alb"><a href="www.website.com">More info</a></td>
+    </tr>
+    <tr>
+        <td class="gri">Free FORECLOSURE SECRETS</td>
+        <td class="gri">12</td>
+        <td class="gri">0</td>
+        <td class="gri">12</td>
+        <td class="gri">$15.21</td>
+        <td class="gri">$0.18</td>
+        <td class="gri">$15.26</td>
+        <td class="gri"><a href="www.website.com">More info</a></td>
+    </tr>
+    <tr>
+        <td class="alb">asd</td>
+        <td class="alb">8</td>
+        <td class="alb">0</td>
+        <td class="alb">8</td>
+        <td class="alb">$4.23</td>
+        <td class="alb">$0.18</td>
+        <td class="alb">$4.32</td>
+        <td class="alb"><a href="www.website.com">More info</a></td>
+    </tr>
+    <tr>
+        <td class="gri">pf</td>
+        <td class="gri">5</td>
+        <td class="gri">1</td>
+        <td class="gri">4</td>
+        <td class="gri">$4.49</td>
+        <td class="gri">$0.00</td>
+        <td class="gri">$5.62</td>
+        <td class="gri"><a href="www.website.com">More info</a></td>
+    </tr>
+    <tr>
+        <td class="alb">mem</td>
+        <td class="alb">4</td>
+        <td class="alb">1</td>
+        <td class="alb">3</td>
+        <td class="alb">$1.61</td>
+        <td class="alb">0.87</td>
+        <td class="alb">$2.72</td>
+        <td class="alb"><a href="www.website.com">More info</a></td>
+    </tr>
+    <tr>
+        <td class="gri">dger:ge</td>
+        <td class="gri">2</td>
+        <td class="gri">0</td>
+        <td class="gri">2</td>
+        <td class="gri">$1.91</td>
+        <td class="gri">$0.13</td>
+        <td class="gri">$2.00</td>
+        <td class="gri"><a href="www.website.com">More info</a></td>
+    </tr>
+    <tr>
+        <td class="alb">AAA Brand Software EN</td>
+        <td class="alb">1</td>
+        <td class="alb">0</td>
+        <td class="alb">1</td>
+        <td class="alb">$0.99</td>
+        <td class="alb">$0.20</td>
+        <td class="alb">$1.17</td>
+        <td class="alb"><a href="www.website.com">More info</a></td>
+    </tr>
+    <tr class="row">
+        <th class="total">Total (Count:14)</th>
+        <th class="total">148</th>
+        <th class="total">12</th>
+        <th class="total">136</th>
+        <th class="total">$116.40</th>
+        <th class="total">$1.05</th>
+        <th class="total" colspan="2">$118.30</th>
+    </tr>
+    
+</body>
+
+</html>
